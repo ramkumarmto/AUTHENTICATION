@@ -22,8 +22,8 @@
 }
 .navbar_container ul li a{
     text-decoration: none;
-    color: white;
+    color: rgb(214, 210, 210);
 }
 .navbar_container ul li a.active-class{
-    color: rgb(214, 210, 210);
+    color: rgb(185, 133, 133);
 }
