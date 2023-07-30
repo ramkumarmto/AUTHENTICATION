@@ -1,0 +1,66 @@
+
+  .courses-container{
+    width: 100%;
+    min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    background: #191c29;
+    padding-bottom: 10%;
+  }
+
+  .course-card {
+    background: linear-gradient(to right,rgb(136, 128, 166),rgb(125, 115, 161));
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    overflow: hidden;
+    margin : 25px 15px 15px 15px;
+    width : 50%;
+    height : 170px
+  }
+  
+  .course-card::before {
+    width: 150px;
+    height: 170px;
+    content: "";
+    background: linear-gradient(to right,rgb(165, 148, 224),rgb(159, 148, 199));
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    right: -57px;
+    top: 105px;
+  }
+  .card-details{
+    margin-top: 15px;
+    width : 65%
+  }
+ 
+  .card-details div h6{
+    font-size: 18px;
+    color: rgb(229, 166, 169);
+  }
+  .card-details p{
+    font-size: 16px;
+    color: rgb(212, 197, 197);
+  }
+  
+  .payment-btn {
+    font-weight: 600;
+    margin-top: 10px;
+   font-size: 11px;
+   width : 40%
+  }
+  
+  
+  
+ 
+  
+ 
+ 
+ 
+  
+ 
+  
+ 

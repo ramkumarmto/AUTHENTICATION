@@ -1,0 +1,29 @@
+
+.navbar_container{
+    width: 100%;
+    height: 70px;
+    background-color: #5c5b5a;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+
+}
+.navbar_container ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navbar_container ul li {
+    margin-right: 20px;
+    color: white;
+}
+.navbar_container ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar_container ul li a.active-class{
+    color: rgb(214, 210, 210);
+}
